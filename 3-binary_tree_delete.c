@@ -2,7 +2,7 @@
 
 /**
  * binary_tree_delete - deletes an entire binary tree
- * tree: root node of the tree to be deleted
+ * @tree: root node of the tree to be deleted
  *
  * Return: Nothing
  */

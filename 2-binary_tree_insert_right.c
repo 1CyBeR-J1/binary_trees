@@ -2,8 +2,8 @@
 
 /**
  * binary_tree_insert_right - inserts a node as the right-child of another node
- * parent: pointer to the node to insert the right-child in
- * value: value tpo store in the new node
+ * @parent: pointer to the node to insert the right-child in
+ * @value: value tpo store in the new node
  *
  * Return: pointer to the created node, or NULL on
  * failure or if parent is NULL
