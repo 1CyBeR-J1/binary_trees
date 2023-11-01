@@ -70,7 +70,7 @@ int heap_extract(heap_t **root);
 int *heap_to_sorted_array(heap_t *heap, size_t *size);
 
 int _pow_recursion(int x, int y);
-
+const binary_tree_t;
 
 size_t binary_tree_height(const binary_tree_t *tree);
 int is_perfect(const binary_tree_t *tree, size_t depth, size_t level);
