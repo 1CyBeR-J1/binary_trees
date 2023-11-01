@@ -4,6 +4,7 @@
  * print_level - print the node at a level
  * @tree: pointer to the root node of the tree to tranverse
  * @func: pointer to the function to call node
+ * @level: the level of the tree to call func on
  *
  * Return: Nothing
  */
