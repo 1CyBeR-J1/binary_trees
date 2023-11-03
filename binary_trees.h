@@ -7,6 +7,7 @@
 #include <string.h>
 #include <math.h>
 #include <unistd.h>
+#include <limits.h>
 
 /**
  * struct binary_tree_s - Binary tree node
@@ -74,6 +75,7 @@ int _pow_recursion(int x, int y);
 void print_level(const binary_tree_t *tree, void (*func)(int), size_t level);
 int binary_tree_is_complete_recr(const binary_tree_t *tree, size_t i,
 		size_t size);
+int binary_tree_bst_valid(const binary_tree_t *tree, int min, int max);
 
 size_t binary_tree_height(const binary_tree_t *tree);
 int is_perfect(const binary_tree_t *tree, size_t depth, size_t level);
